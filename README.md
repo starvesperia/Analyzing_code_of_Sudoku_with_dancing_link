@@ -24,7 +24,7 @@ First 16 columns are meaning the first constraint. For example, if you select (2
 Second 16 columns are meaning the second constraint. If you select (3,1,1) , you will erase (3,1,2), (3,1,3) and (3,1,4).
 Like this way, we can solve the 4x4 sudoku puzzle.
 
-9¡¿9 sudoku puzzle is just expansion of this 4x4 sudoku puzzle.
+9x9 sudoku puzzle is just expansion of this 4x4 sudoku puzzle.
 It can be expressed in exact cover problem which has 9x9x9 rows and 9x9x4 columns.
 
 And then I found an open source code of sudoku solving code which using dancing link.
